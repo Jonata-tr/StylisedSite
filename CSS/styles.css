@@ -1,0 +1,120 @@
+body {
+    text-align: center ;
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+hr {
+    margin: 50px auto;
+    border: 11px dotted #71C9CE;
+    border-bottom: none;
+    width: 85px;
+    
+}
+
+p {
+    line-height: 1.6;
+}
+
+.topMenu {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: #CBF1F5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topMenu ul, li {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:20px;
+    align-items: center;
+}
+
+.topMenu a {
+    color: #11999E;
+    margin-left: 50px;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.topMenu a:hover{
+    color:yellow;
+    background-color: #A6D1E6;
+    border: 1px solid black;
+    border-radius: 50px;
+    text-shadow: 2px 2px 3px red;
+    padding: 5px 5px;
+}
+
+.topMenu img {
+    width: 60px;
+}
+
+.header {
+    background-color: #CBF1F5;
+    position: relative;
+}
+
+.header h1 {
+    color: #66BFBF;
+    display: inline;
+    font-size: 5.625rem;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 1px 1px 0 black;
+    margin: 20px auto 0;
+}
+
+.header h2 {
+    color: #66BFBF;
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-shadow: 1px 1px 0 black;
+}
+
+#topCloud {
+    position:absolute;
+    right: 380px;
+    top: 50px;
+}
+
+#bottomCloud {
+    position: absolute;
+    left: 400px;
+}
+
+
+
+.personalPresentation h2, h3 {
+    color: #11999E;
+    text-decoration: underline;
+}
+
+.aboutMe {
+    width: 50%;
+    margin: auto;
+}
+
+#perfilImage {
+    width: 290px;
+}
+
+
+.skillsRow {
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+    line-height: 2;
+    
+}
+
+.skillGiph {
+    width: 25%;
+}
+
+#hobbyGiph {
+    width: 370px;
+}
