@@ -6,10 +6,10 @@ body {
 }
 
 hr {
-    margin: 30px auto;
-    border: 11px dotted #71C9CE;
+    margin: 30px auto 25px;
+    border: 6px dotted lightslategray;
     border-bottom: none;
-    width: 85px;
+    width: 45px;
     
 }
 
@@ -17,46 +17,16 @@ p {
     line-height: 1.6;
 }
 
-.topMenu {
-    margin: 0;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    background-color: #CBF1F5;
-    display: flex;
-    justify-content: space-between;
-}
-
-.topMenu ul, li {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    margin-right:20px;
-    align-items: center;
-}
-
-.topMenu a {
-    color: #11999E;
-    margin-left: 50px;
-    text-decoration: none;
-    transition: 0.1s;
-}
-
-.topMenu a:hover{
-    color:yellow;
-    background-color: #A6D1E6;
-    border: 1px solid black;
-    border-radius: 50px;
-    text-shadow: 2px 2px 3px red;
-    padding: 5px 5px;
-}
-
-.topMenu img {
-    width: 60px;
+a {
+    text-align: center;
+    margin: 20px 30px;
 }
 
 .header {
+    padding: 100px 0 0;
     background-color: #CBF1F5;
     position: relative;
+    border-bottom: 2px solid #A6D1E6;
 }
 
 .header h1 {
@@ -86,9 +56,17 @@ p {
     left: 400px;
 }
 
-.personalPresentation h2, h3 {
-    color: #11999E;
+.personalPresentation {
+    position: relative;
+}
+
+.personalPresentation h2{
+    color: #66BFBF;
     text-decoration: underline;
+}
+
+.personalPresentation h3 {
+    color: #11999E;
 }
 
 .aboutMe {
@@ -98,11 +76,12 @@ p {
 
 #perfilImage {
     width: 290px;
+    margin-bottom: 25px;
 }
 
 
 .skillsRow {
-    width: 50%;
+    width: 60%;
     margin: 100px auto 0px;
     text-align: left;
     line-height: 2;
@@ -111,20 +90,27 @@ p {
 
 .habilidades, .competencias {
     display: flex;
+    align-items: center;
 }
 
 .skillGiph {
-    width: 21.2%;
-    margin-right: 30px;
-    position: relative;
-    bottom: 30px;
+    width: 16.2%;
+    margin-right: 45px;
+}
+
+.habilidades h3 {
+    position: absolute;
+    bottom: 390px;
+}
+
+.competencias h3 {
+    position: absolute;
+    bottom:200px;
 }
 
 .competenciasGiph {
     width: 25%;
-    margin-right: 30px;    
-    position: relative;
-    bottom: 80px;
+    margin-right: 25px; 
 }
 
 .skillsRow h3 {
@@ -134,9 +120,61 @@ p {
 }
 
 
-
-
-
-#hobbyGiph {
-    width: 370px;
+.contactMe {
+    width: 30%;
+    margin: 10px auto 50px;
 }
+
+.contactMe p {
+    margin: 40px auto;
+}
+
+.button {
+    margin: 0 auto;
+}
+
+button {
+    font-size: 1.2rem;
+    color: white;
+    background-color: #66BFBF;
+    border: none;
+    border-radius: 15px;
+    padding: 17px 20px;
+}
+
+button:hover {
+    background: linear-gradient(to right, #00efff, #3fd2fb);
+    text-shadow: 1px 1px 1px black;
+}
+
+.linksContainer {
+    background-color: #CBF1F5;    
+    padding: 15px 0 10px;
+    line-height: 1.5;
+    border-top:2px solid #A6D1E6;
+    margin-top: 60px;
+}
+.links {
+    margin: 0 790px;
+}
+
+.bottomContainer h3, .bottomContainer h2 {
+    color: #66BFBF;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+}
+.links img {
+    width: 100px;
+}
+
+.links img:hover {
+    width: 112px;
+}
+
+ #git {
+   margin-top: 18px;
+}
+
